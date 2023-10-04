@@ -1,0 +1,130 @@
+{
+  "todos": [
+    {
+      "id": "2129191a-8256-4e09-bf9d-55b70a6c173e",
+      "sender": "Champ",
+      "subject": "Generic Soft Mouse",
+      "date": "Tue Feb 13 2024 03:03:14 GMT+0100 (Central European Standard Time)",
+      "channel": "Champ"
+    },
+    {
+      "id": "02021e12-b311-4746-8c32-059fc56fcff7",
+      "sender": "Email",
+      "subject": "Recycled Wooden Cheese",
+      "date": "Sun May 12 2024 08:27:24 GMT+0200 (Central European Summer Time)",
+      "channel": "Email"
+    },
+    {
+      "id": "30b4bb7e-bc93-4dd4-a48c-75b9561d1fdd",
+      "sender": "Google Messages",
+      "subject": "Oriental Fresh Sausages",
+      "date": "Tue Sep 12 2023 18:31:01 GMT+0200 (Central European Summer Time)",
+      "channel": "GoogleMessages"
+    },
+    {
+      "id": "7725a444-2dd1-4050-95c2-edcc1f40a564",
+      "sender": "Google",
+      "subject": "Licensed Frozen Shirt",
+      "date": "Sat Jul 13 2024 15:26:15 GMT+0200 (Central European Summer Time)",
+      "channel": "Google"
+    },
+    {
+      "id": "74588559-0a9a-467d-a502-ee860b011e74",
+      "sender": "Instagram Direct",
+      "subject": "Recycled Concrete Pizza",
+      "date": "Mon May 06 2024 22:34:10 GMT+0200 (Central European Summer Time)",
+      "channel": "InstagramDirect"
+    },
+    {
+      "id": "51d67bee-4d15-406e-8148-9ab5dff12d7b",
+      "sender": "KIK",
+      "subject": "Oriental Steel Keyboard",
+      "date": "Tue Oct 31 2023 07:10:01 GMT+0100 (Central European Standard Time)",
+      "channel": "Kik"
+    },
+    {
+      "id": "15cebbba-e1ce-4c8c-a423-3f03022626e5",
+      "sender": "Line",
+      "subject": "Handcrafted Bronze Shirt",
+      "date": "Sat Mar 23 2024 16:00:40 GMT+0100 (Central European Standard Time)",
+      "channel": "Line"
+    },
+    {
+      "id": "e91c85e9-6be2-4d1a-9e53-c2af97d1e01f",
+      "sender": "LinkedIn",
+      "subject": "Sleek Metal Pizza",
+      "date": "Wed Jan 24 2024 00:43:18 GMT+0100 (Central European Standard Time)",
+      "channel": "LinkedIn"
+    },
+    {
+      "id": "c014eded-01d3-486c-8e7b-2c5b85e96c4d",
+      "sender": "Messenger",
+      "subject": "Oriental Bronze Pants",
+      "date": "Thu Sep 21 2023 22:42:18 GMT+0200 (Central European Summer Time)",
+      "channel": "Messenger"
+    },
+    {
+      "id": "8557f161-56b1-4f44-ba85-0ff7cf86897c",
+      "sender": "Signal",
+      "subject": "Bespoke Rubber Salad",
+      "date": "Tue Jan 16 2024 14:19:59 GMT+0100 (Central European Standard Time)",
+      "channel": "Signal"
+    },
+    {
+      "id": "71a3017e-5a65-49cf-bb7a-96ec541683ed",
+      "sender": "Slack",
+      "subject": "Rustic Bronze Gloves",
+      "date": "Tue Oct 31 2023 13:31:38 GMT+0100 (Central European Standard Time)",
+      "channel": "Slack"
+    },
+    {
+      "id": "9abdda68-1b92-4a58-950a-8d1aa6fb166f",
+      "sender": "SMS",
+      "subject": "Rustic Bronze Gloves",
+      "date": "Tue Oct 31 2023 13:31:38 GMT+0100 (Central European Standard Time)",
+      "channel": "Sms"
+    },
+    {
+      "id": "2d9bd225-15e1-4ea5-97e0-b342f6438f20",
+      "sender": "Snapchat",
+      "subject": "Rustic Bronze Gloves",
+      "date": "Tue Oct 31 2023 13:31:38 GMT+0100 (Central European Standard Time)",
+      "channel": "Snapchat"
+    },
+    {
+      "id": "a2a6df40-9a99-44a1-b97f-8257deb7f927",
+      "sender": "Teams",
+      "subject": "Rustic Bronze Gloves",
+      "date": "Tue Oct 31 2023 13:31:38 GMT+0100 (Central European Standard Time)",
+      "channel": "Teams"
+    },
+    {
+      "id": "6d8f8b05-2162-4ef9-a6d5-9b10fac21882",
+      "sender": "Telegram",
+      "subject": "Rustic Bronze Gloves",
+      "date": "Tue Oct 31 2023 13:31:38 GMT+0100 (Central European Standard Time)",
+      "channel": "Telegram"
+    },
+    {
+      "id": "fee6877e-4341-46fa-9a61-1932892ecd90",
+      "sender": "Viber",
+      "subject": "Rustic Bronze Gloves",
+      "date": "Tue Oct 31 2023 13:31:38 GMT+0100 (Central European Standard Time)",
+      "channel": "Viber"
+    },
+    {
+      "id": "9d55d2dd-c466-4a3b-ab6a-11a3a50601a0",
+      "sender": "WeChat",
+      "subject": "Rustic Bronze Gloves",
+      "date": "Tue Oct 31 2023 13:31:38 GMT+0100 (Central European Standard Time)",
+      "channel": "WeChat"
+    },
+    {
+      "id": "7681b598-3f0b-4e19-a3c0-ab08586b8f12",
+      "sender": "WhatsApp",
+      "subject": "Rustic Bronze Gloves",
+      "date": "Tue Oct 31 2023 13:31:38 GMT+0100 (Central European Standard Time)",
+      "channel": "WhatsApp"
+    }
+  ]
+}

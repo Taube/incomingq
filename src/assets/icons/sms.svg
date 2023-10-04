@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" width="32" height="32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" enable-background="new 0 0 32 32" xml:space="preserve">
+<path fill="#009688" d="M24.895,26.246H7.105L3,30.351V7.088C3,4.83,4.847,2.982,7.105,2.982h17.789C27.153,2.982,29,4.83,29,7.088
+	V22.14C29,24.398,27.153,26.246,24.895,26.246z"/>
+<g>
+	<circle fill="#FFFFFF" cx="16" cy="14.614" r="2.053"/>
+	<circle fill="#FFFFFF" cx="22.842" cy="14.614" r="2.053"/>
+	<circle fill="#FFFFFF" cx="9.158" cy="14.614" r="2.053"/>
+</g>
+</svg>
