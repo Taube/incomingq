@@ -55,3 +55,9 @@ Please don't fiddle with it.
 ## Mocking
 
 - json-server: ^0.17.3
+
+## Packe manager
+
+NOTE: Due to failing builds with cloudflare pages with yarn 1.2.2, the whole project was bumped to the latest version of yarn that solved the problem.
+
+- yarn 3.6.4
