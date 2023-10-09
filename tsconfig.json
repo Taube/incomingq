@@ -20,8 +20,11 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
 
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true, //  Helps ensure consistent file name casing.
+
     /* Testing */
-    "types": ["vitest/globals"],
+    "types": ["vitest/globals", "vite/client", "@vitejs/plugin-react-swc"],
 
     "baseUrl": ".",
     "paths": {
