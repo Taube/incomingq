@@ -24,4 +24,6 @@ export type ToDo = {
   subject: string;
   date: string;
   channel: Channel;
+  isDone: boolean;
+  isDeleted: boolean;
 };

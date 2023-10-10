@@ -15,16 +15,27 @@ import {
 } from "@/components/ui/table";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
+import { getSelectedIdList } from "@/helpers/getSelectedIdList";
+import { ToDo } from "@/models/todos";
+import {
+  useUpdateTodoToDoneMutation,
+  useUpdateTodoToNotDoneMutation,
+} from "./todoSlice";
 
 interface DataTableProps<TData, TValue> {
   columns: ColumnDef<TData, TValue>[];
   data: TData[];
+  isDone?: boolean;
 }
 
 export const DataTable = <TData, TValue>({
   columns,
   data,
+  isDone,
 }: DataTableProps<TData, TValue>) => {
+  const [updateTodoToDone] = useUpdateTodoToDoneMutation();
+  const [updateTodoToNotDone] = useUpdateTodoToNotDoneMutation();
+
   const [rowSelection, setRowSelection] = useState({});
 
   const table = useReactTable({
@@ -41,7 +52,15 @@ export const DataTable = <TData, TValue>({
     table.getFilteredSelectedRowModel().rows.length === 1 ? "item" : "items";
 
   const handleBatch = () => {
-    console.log("Do it");
+    const selectedIdList = getSelectedIdList(rowSelection, data as Array<ToDo>);
+
+    if (isDone) {
+      selectedIdList.map((id) => updateTodoToNotDone(id));
+    } else {
+      selectedIdList.map((id) => updateTodoToDone(id));
+    }
+
+    setRowSelection({});
   };
 
   return (
@@ -51,8 +70,12 @@ export const DataTable = <TData, TValue>({
           {table.getFilteredSelectedRowModel().rows.length} of{" "}
           {table.getFilteredRowModel().rows.length} {rowText} selected.
         </span>
-        <Button onClick={handleBatch} variant="primary">
-          Set as done
+        <Button
+          onClick={handleBatch}
+          variant="primary"
+          disabled={Object.keys(rowSelection).length === 0}
+        >
+          {isDone ? "Set as Todo" : "Set as Done"}
         </Button>
       </div>
       <Table className="relative">

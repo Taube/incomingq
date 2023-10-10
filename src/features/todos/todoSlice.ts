@@ -9,9 +9,9 @@ export const todosApi = createApi({
       providesTags: [TAGS.LIST],
       query: (id) => `${ENDPOINTS.TODOS}/${id}`,
     }),
-    getTodoList: builder.query<Array<ToDo>, void>({
+    getTodoList: builder.query<Array<ToDo>, boolean>({
       providesTags: [TAGS.LIST],
-      query: () => ENDPOINTS.TODOS,
+      query: (isDone) => `${ENDPOINTS.TODOS}?isDone=${isDone}`,
     }),
     addTodo: builder.mutation<ToDo, ToDo>({
       invalidatesTags: [TAGS.LIST],
@@ -21,11 +21,19 @@ export const todosApi = createApi({
         url: ENDPOINTS.TODOS,
       }),
     }),
-    updateTodo: builder.mutation<void, ToDo>({
+    updateTodoToDone: builder.mutation<void, string>({
       invalidatesTags: [TAGS.LIST],
-      query: ({ id, ...rest }) => ({
-        body: rest,
-        method: "PUT",
+      query: (id) => ({
+        body: { isDone: true },
+        method: "PATCH",
+        url: `${ENDPOINTS.TODOS}/${id}`,
+      }),
+    }),
+    updateTodoToNotDone: builder.mutation<void, string>({
+      invalidatesTags: [TAGS.LIST],
+      query: (id) => ({
+        body: { isDone: false },
+        method: "PATCH",
         url: `${ENDPOINTS.TODOS}/${id}`,
       }),
     }),
@@ -46,5 +54,6 @@ export const {
   useAddTodoMutation,
   useDeleteTodoMutation,
   useGetTodoListQuery,
-  useUpdateTodoMutation,
+  useUpdateTodoToDoneMutation,
+  useUpdateTodoToNotDoneMutation,
 } = todosApi;
